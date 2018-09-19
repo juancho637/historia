@@ -1,0 +1,82 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  margin: 0 auto; 
+  color: #555555;
+  background: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+#logo {
+  float: left;
+  margin-top: 8px;
+}
+
+#logo img {
+  height: 70px;
+}
+
+#company {
+  text-align: right;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2.name {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  text-align: right;
+}
+
+.pet {
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+#invoice .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+#notices{
+  margin-top: 30px !important;
+  width: 40%;
+  padding-left: 6px;
+  /*border-left: 6px solid #0087C3;*/
+  border-top: 1px solid;
+}
+
+#notices .notice {
+  font-size: 1.2em;
+}
+
